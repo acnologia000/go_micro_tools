@@ -15,7 +15,7 @@ func main() {
 	
 	flag.Parse()
 
-	log.Println("file name : %s \nport :%s ", fileNamePtr , port)
+	log.Println("file name : %s | port :%s ", fileNamePtr , port)
 
 	if *fileNamePtr == "*" {
 
